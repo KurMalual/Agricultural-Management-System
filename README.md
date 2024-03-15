@@ -1,13 +1,9 @@
 # Agricultural-Management-System
-
-# Agricultural-Management-System
-
-# Agricultural-Management
 Description of the concept of my Mission. 
 
 My G.C.G.O.s are climate change, Agriculture, and job creation. As per this project, I will be focusing on Agriculture since the issue of climate change is my long-term goal.
 My mission for agriculture is to develop a comprehensive software solution to tackle the challenge of the agricultural supply chain and production. As we know, the basics of Agriculture refer to the rearing of livestock and farming; agriculture is a broader occupation, and I will solely focus on the crop production part because is one of the significant challenges affecting my country. 
-We have many fertile lands, but they need to be cultivated, and also, there are farmers whose products don't reach the capital market because of lack of exposure.
+We have many fertile lands, but they need to be cultivated. Also, there are farmers whose products don't reach the capital market because of lack of exposure.
 Agriculture is the backbone of any country that practices it effectively and efficiently to satisfy the needs of all.
 I will design a website connecting farmers, business people, truck drivers, and tractors because there has been a significant gap between those stakeholders, leading to the deterioration in the quality of farm sales and spoiled products.
 
@@ -40,7 +36,7 @@ Software development model
 The selected software development model for this project is the Agile model.
 The flexibility and adaptability of Agile shine when it comes to student-based software projects. It will help me to benefit from iterative sprints, delivering early value, focusing on user satisfaction, mitigating risks, and experiencing real-world development practices. The agricultural supply chain is a complex system with diverse stakeholders, and the Agile model allows for continuous collaboration, regular feedback, and the ability to respond to changing requirements. The flexibility of Agile will enable us to address any emerging challenges during the development process.
 
-Hypothesis of their solution
+The hypothesis of their solution
 Online Agricultural Marketplace:
           Problem Addressed: Gap between farmers and the market, spoilage due to oversupply
          Solution: Develop an online platform where farmers can list and sell their products directly to consumers or wholesalers. This allows them to reach a broader market and avoid oversupply issues.
@@ -62,7 +58,7 @@ Problem Addressed: Limited access to technology in rural areas.
 Solution: Ensure the website is mobile-friendly, as many farmers may access it via smartphones. I will develop a mobile app for easier access sometimes.
 
 Partnerships and Integration:
-Solution: Collaborate with local agricultural agencies, NGOs, and government bodies to gather data, provide support, and integrate existing agricultural initiatives into the platform.
+Solution: Collaborate with local agricultural agencies, N.G.O.s, and government bodies to gather data, provide support, and integrate existing agricultural initiatives into the platform.
 
 Training and Workshops:
 Problem Addressed: Limited knowledge of technology and online platforms.
