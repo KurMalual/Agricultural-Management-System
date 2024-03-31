@@ -1,18 +1,11 @@
 # Agricultural-Management-System
-<<<<<<< HEAD
 
 # Agricultural-Management
-=======
->>>>>>> f07d86a1eb27201dfb276672e7d33970efdbeed9
 Description of the concept of my Mission. 
 
 My G.C.G.O.s are climate change, Agriculture, and job creation. As per this project, I will be focusing on Agriculture since the issue of climate change is my long-term goal.
 My mission for agriculture is to develop a comprehensive software solution to tackle the challenge of the agricultural supply chain and production. As we know, the basics of Agriculture refer to the rearing of livestock and farming; agriculture is a broader occupation, and I will solely focus on the crop production part because is one of the significant challenges affecting my country. 
-<<<<<<< HEAD
 We have many fertile lands, but they need to be cultivated, and also, there are farmers whose products don't reach the capital market because of lack of exposure.
-=======
-We have many fertile lands, but they need to be cultivated. Also, there are farmers whose products don't reach the capital market because of lack of exposure.
->>>>>>> f07d86a1eb27201dfb276672e7d33970efdbeed9
 Agriculture is the backbone of any country that practices it effectively and efficiently to satisfy the needs of all.
 I will design a website connecting farmers, business people, truck drivers, and tractors because there has been a significant gap between those stakeholders, leading to the deterioration in the quality of farm sales and spoiled products.
 
