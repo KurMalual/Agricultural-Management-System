@@ -74,8 +74,8 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="Farm.html">Farm</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="tractors.html">Tractor</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="Farm.html">Crops</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="tractors.html">Tractors</a></li>
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="Transport.html">Transport</a></li>
               <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="customers.html">Customers</a></li> -->
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
@@ -120,7 +120,7 @@
             <p>
               Location: Sherikat
             </p>
-            <p><span class="subtitle">Pricing</span> SSP 50000 per hour</p>
+            <p><span class="subtitle">Pricing</span>: SSP 50000 per hour</p>
             <p><span class="subtitle">Availability</span>: Available</p>
             <a href="#Hiring-form"><button id="Hire-truck" class="Hiring-btn" onclick="HireHere()">HIRE</button></a>
           </div>
@@ -281,13 +281,13 @@
             </div>
       
             <div class="col-md-5 offset-md-1 mb-3">
-              <form>
+              <form id="Subscribe-form">
                 <h5>Subscribe to our newsletter</h5>
                 <p>Monthly digest of what's new and exciting from us.</p>
                 <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                   <label for="newsletter1" class="visually-hidden">Email address</label>
                   <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                  <button class="btn btn-primary" type="button">Subscribe</button>
+                  <button class="btn btn-primary" type="button" onclick="Subscribe()">Subscribe</button>
                 </div>
               </form>
             </div>
@@ -330,7 +330,7 @@
     </script>
     <script>
       function HireForm() {
-        alert('Thank for booking, your choice is well received');
+        alert('Thank you for hiring our tractor, we are here to serve you.');
         document.getElementById("Hire-form");
        
       }

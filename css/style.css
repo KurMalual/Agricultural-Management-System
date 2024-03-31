@@ -687,12 +687,7 @@ cursor: pointer;
     width: 50px;
 }
    /* /TEAM Section */
-.text-end{
 
-}
-.navbar-collapse ul li{
-
-}
 @media (max-width: 786px){
     .navbar-collapse ul li{
         display: block;
@@ -801,54 +796,54 @@ nav{
         margin-top: 80px;
       }
     .container{
-        margin-top: 80px;
+        margin-top: 100px;
     }
-  }
-  .logo{
-      height: 50px;
+}
+.logo{
+    height: 50px;
     width: 50px;
     border-radius: 50px;
-    }
-    .border-bottom{
-        text-align: center;
-        color: rgb(10, 79, 10);
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      }
-      .navbar-brand h2{
-        color: lightgreen;
-      }  
-      .navbar-collapse ul li:hover{
-        color: green;
-        background-color: rgb(10, 79, 10);
-        border: 1px solid rgb(10, 79, 10);
-        transition: 1s;
-      }
-      .me-2{
-        background: #00cc00;
-        background-color: #008000;
-      }
-    #usernameDisplay{
-        color: #f2f2f2;
-        font-weight: bolder;
-        font-size: medium;
-      }
-    .text-end button{
-        color: #f2f2f2;
-        background-color: #008000;
-    }
-    .container-fluid{
-        background-color: #008000;
-    }
-    .container .btn-primary{
-        background-color: #008000; 
-    }
-    .col-12 .btn-primary{
-        background-color: #008000;  
-    }
-    .mt-2::after{
-        background-color: #abb0b8;
-        color: #f2f2f2;
-    }
+}
+.border-bottom{
+    text-align: center;
+    color: rgb(10, 79, 10);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-brand h2{
+    color: lightgreen;
+}  
+.navbar-collapse ul li:hover{
+    color: green;
+    background-color: rgb(10, 79, 10);
+    border: 1px solid rgb(10, 79, 10);
+    transition: 1s;
+}
+.me-2{
+    background: #00cc00;
+    background-color: #008000;
+}
+#usernameDisplay{
+    color: #f2f2f2;
+    font-weight: bolder;
+    font-size: medium;
+}
+.text-end button{
+    color: #f2f2f2;
+    background-color: #008000;
+}
+.container-fluid{
+    background-color: #008000;
+}
+.container .btn-primary{
+    background-color: #008000; 
+}
+.col-12 .btn-primary{
+    background-color: #008000;  
+}
+.mt-2::after{
+    background-color: #abb0b8;
+    color: #f2f2f2;
+}
 #welcomeMessage{
     color: #f2f2f2;
     font-weight: bolder;

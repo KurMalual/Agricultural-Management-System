@@ -52,3 +52,26 @@ document.getElementById("usernameDisplay").innerText = "";
 document.getElementById("welcomeMessage").style.display = "none";
 document.getElementById("loginForm").style.display = "block";
 }
+
+
+document.getElementById('subscribeForm').addEventListener('submit', function(event) {
+event.preventDefault();
+
+var email = document.getElementById('newsletter1').value;
+var xhr = new XMLHttpRequest();
+xhr.open('POST', 'subscribe.php', true);
+xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xhr.onload = function() {
+    if (xhr.status === 200) {
+        document.getElementById('subscribeMessage').innerHTML = xhr.responseText;
+    } else {
+        console.log('Request failed. Returned status of ' + xhr.status);
+    }
+};
+xhr.send('email=' + encodeURIComponent(email));
+});
+function Subscribe() {
+    alert('Thank you for the subscription. We will keep updating you.');
+    document.getElementById("Subscribe-form");
+   
+  }

@@ -124,7 +124,9 @@
 }
 
 @media (max-width: 700px){
-
+  /* .experience_delivery h3{
+    font-size: medium;
+  } */
   .main h2{
     font-size: 25px;
   }
@@ -234,8 +236,8 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="Farm.html">Farm</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="tractors.html">Tractor</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="Farm.html">Crops</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="tractors.html">Tractors</a></li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="Transport.html">Transport</a></li>
           <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="customers.html">Customers</a></li> -->
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
@@ -272,8 +274,8 @@
     <div class="overlay">
        <!-- Home page content -->
    <div class="home-page-content">
-     <h1 class="text-center home-page-text h1-responsive">Agricultural products management system</h1>
-     <h5 class="text-center home-supporting-text">For a nation to thrive, Agriculture should be the backbone.</h5>
+     <h1 class="text-center home-page-text h1-responsive">Agricultural Products Management System</h1>
+     <h5 class="text-center home-supporting-text">For a nation to thrive, agriculture should be the backbone of the economy.</h5>
      <div class="home-buttons text-center fadeIn">
       <a href="services.html"> <div class="btn homepage-btn-1 btn-lg mt-2">About Us</div></a>
      </div>
@@ -287,12 +289,12 @@
 
   <section class="main">
     <div>
-      <h2> Have the glimpse of our services</h2>
+      <h2>Have the glimpse of our services</h2>
       <div class="glimpse">
-      <span class="glim" >Farm</span>
+      <span class="glim" >Crops</span>
       <span class="glim">Tractors</span>
       <span class="glim">Transport</span>
-      <span class="glim">Customers</span>
+      <span class="glim">Clients</span>
     </div>
     <div>
       <p class="p1">The specified software is an Agricultural products management system (APMS) developed to facilitate, 
@@ -309,14 +311,14 @@
     <div class="experience_delivery">
       <h3>Our experience in services delivery</h3>
       <div class="experience">
-        <p class="p2">We have ten years of experience, we have impacted more than 20k
-          life in the interval of 10 year period</p>
+        <p class="p2">
+          We have ten years of experience, and we have impacted more than 20,000 lives in a 10-year period.</p>
         <img src="images/EXPER.jpg" alt="">
       </div>
       <div class="proof">
         <div class="experience_proof">
           <span>30k</span>
-          <p>Engaging farmers tractors and Customers</p>
+          <p>Engaging Farmers, Tractors, Trucks and Customers</p>
         </div>
         <div class="experience_proof">
           <span>20k</span>
@@ -324,7 +326,7 @@
         </div>
         <div class="experience_proof">
           <span>10+ years</span>
-          <p> Working experience</p>
+          <p>Working experience</p>
         </div>
       </div>
       <section id="Gallery">
@@ -344,7 +346,11 @@
           <div class="Testimonial">
             <img src="images/wen Awuok.jpeg">
             <h3 class="fs-2 text-body-emphasis">Manyok Ghai</h3>
-            <p>Agriculture has always been my dream since high school, i appreciate the developer of this app for making my dream come true.</p>
+            <p>
+              Agriculture has always been my dream since high school, and I appreciate the Agricultural Product Management Company for developing this website
+               and making my dream come true. I'm now able to get tractors to cultivate my 
+               farm in the rainy season and trucks to transport my product to the market easily.
+              </p>
           </div>
         </div>
         <div class="col d-flex align-items-start">
@@ -354,7 +360,11 @@
           <div class="Testimonial">
             <img src="images/BY7B0419.JPG">
             <h3 class="fs-2 text-body-emphasis">Kur Malual</h3>
-            <p>I love Agriculture so much that is what made me to do business with the Agricultural product company and it had been helpful so far</p>
+            <p>
+              I love agriculture so much; that is what made me do business with the Agricultural Product Management System company,
+               and it has been helpful so far. I own a tractor company, and through this website, 
+               I'm able to meet potential clients who are looking for tractors to cultivate their farm.
+              </p>
           </div>
         </div>
         <div class="col d-flex align-items-start">
@@ -364,7 +374,12 @@
           <div class="Testimonial">
             <img src="images/khmis.jpg">
             <h3 class="fs-2 text-body-emphasis">Gabriel</h3>
-            <p>Agricultural product management system had help me to acheive my dream by making all the processes simple for me</p>
+            <p>
+              The agricultural product management system helped me achieve my dream by 
+              making all the processes simple for me. I am the CEO of Tran Trucks. And ever since 
+              I registered with this APMS, I have had exponential growth in income through customers 
+              hiring my trucks.
+              </p>
           </div>
         </div>
       </div>
@@ -602,13 +617,13 @@
         </div>
   
         <div class="col-md-5 offset-md-1 mb-3">
-          <form>
+          <form id="Subscribe-form">
             <h5>Subscribe to our newsletter</h5>
             <p>Monthly digest of what's new and exciting from us.</p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
+              <button class="btn btn-primary" type="button" onclick="Subscribe()">Subscribe</button>
             </div>
           </form>
         </div>
