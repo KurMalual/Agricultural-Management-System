@@ -38,11 +38,7 @@ Software development model
 The selected software development model for this project is the Agile model.
 The flexibility and adaptability of Agile shine when it comes to student-based software projects. It will help me to benefit from iterative sprints, delivering early value, focusing on user satisfaction, mitigating risks, and experiencing real-world development practices. The agricultural supply chain is a complex system with diverse stakeholders, and the Agile model allows for continuous collaboration, regular feedback, and the ability to respond to changing requirements. The flexibility of Agile will enable us to address any emerging challenges during the development process.
 
-<<<<<<< HEAD
 Hypothesis of their solution
-=======
-The hypothesis of their solution
->>>>>>> f07d86a1eb27201dfb276672e7d33970efdbeed9
 Online Agricultural Marketplace:
           Problem Addressed: Gap between farmers and the market, spoilage due to oversupply
          Solution: Develop an online platform where farmers can list and sell their products directly to consumers or wholesalers. This allows them to reach a broader market and avoid oversupply issues.
@@ -64,11 +60,7 @@ Problem Addressed: Limited access to technology in rural areas.
 Solution: Ensure the website is mobile-friendly, as many farmers may access it via smartphones. I will develop a mobile app for easier access sometimes.
 
 Partnerships and Integration:
-<<<<<<< HEAD
 Solution: Collaborate with local agricultural agencies, NGOs, and government bodies to gather data, provide support, and integrate existing agricultural initiatives into the platform.
-=======
-Solution: Collaborate with local agricultural agencies, N.G.O.s, and government bodies to gather data, provide support, and integrate existing agricultural initiatives into the platform.
->>>>>>> f07d86a1eb27201dfb276672e7d33970efdbeed9
 
 Training and Workshops:
 Problem Addressed: Limited knowledge of technology and online platforms.
